@@ -1,6 +1,6 @@
 {
   "name": "mavon-editor-xss",
-  "version": "2.9.2",
+  "version": "2.9.3",
   "description": "Vue markdown editor",
   "main": "dist/mavon-editor.js",
   "types": "./mavon-editor.d.ts",
@@ -61,7 +61,7 @@
     "keycode": "^2.1.9",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^11.0.1",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.0",
