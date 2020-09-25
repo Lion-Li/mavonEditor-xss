@@ -18,7 +18,7 @@ import hljsLangs from './hljs/lang.hljs.js'
 var markdown_config = {
     html: false,        // Enable HTML tags in source
     xhtmlOut: true,        // Use '/' to close single tags (<br />).
-    breaks: false,        // Convert '\n' in paragraphs into <br>
+    breaks: true,        // Convert '\n' in paragraphs into <br>
     langPrefix: 'language-',  // CSS language prefix for fenced blocks. Can be
     linkify: false,        // 自动识别url
     typographer: true,
