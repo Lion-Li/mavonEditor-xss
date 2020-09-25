@@ -22,7 +22,7 @@ var markdown_config = {
     langPrefix: 'language-',  // CSS language prefix for fenced blocks. Can be
     linkify: false,        // 自动识别url
     typographer: true,
-    quotes: '“”‘’',
+    // quotes: '“”‘’',
     highlight: function (str, lang) {
         if (lang && hljsLangs[lang]) {
             return '<pre><div class="hljs"><code class="' + lang + '">' + markdown.utils.escapeHtml(str) + '</code></div></pre>';
